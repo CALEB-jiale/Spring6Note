@@ -1,6 +1,6 @@
 #   Spring6
 
-![image-20221209110043449](images\spring6\image-20221209110043449.png)
+![image-20221209110043449](https://github.com/CALEB-jiale/Spring6Note/blob/main/spring6课件/spring6/image-20221209110043449.png?raw=true)
 
 ## 1、概述
 
@@ -12,7 +12,7 @@ Spring 自诞生以来备受青睐，一直被广大开发人员作为 Java 企�
 
 自 2004 年 4 月，Spring 1.0 版本正式发布以来，Spring 已经步入到了第 6 个大版本，也就是 Spring 6。本课程采用Spring当前最新发布的正式版本**6.0.2**。
 
-![image-20221216223135162](images\spring6\image-20221201102513199.png)
+![image-20221216223135162](https://github.com/CALEB-jiale/Spring6Note/blob/main/spring6课件/spring6/image-20221201102513199.png?raw=true)
 
 
 
@@ -62,9 +62,9 @@ Spring 有两个最核心模块： IoC 和 AOP。
 
 官网地址：https://spring.io/
 
-![image-20221207142746771](images\spring6\image-20221207142746771.png)
+![image-20221207142746771](https://github.com/CALEB-jiale/Spring6Note/blob/main/spring6课件/spring6/image-20221207142746771.png?raw=true)
 
-![image-2097896352](images/spring6/2097896352.png)
+![image-2097896352](https://github.com/CALEB-jiale/Spring6Note/blob/main/spring6课件/spring6/2097896352.png?raw=true)
 
 上图中包含了 Spring 框架的所有模块，这些模块可以满足一切企业级应用开发的需求，在开发过程中可以根据需求有选择性地使用所需要的模块。下面分别对这些模块的作用进行简单介绍。
 
@@ -115,7 +115,7 @@ spring core提供了IOC,DI,Bean配置装载创建的核心实现。核心概念�
 
 **（1）Spring6要求JDK最低版本是JDK17**
 
-![image-20221201103138194](images\spring6\image-20221201103138194.png)
+![image-20221201103138194](https://github.com/CALEB-jiale/Spring6Note/blob/main/spring6课件/spring6/image-20221201103138194.png?raw=true)
 
 #### 1.5.2、本课程软件版本
 
@@ -145,23 +145,23 @@ spring core提供了IOC,DI,Bean配置装载创建的核心实现。核心概念�
 
 在idea中，依次单击 File -> New -> Project -> New Project
 
-![image-20221205201741893](images\spring6\image-20221205201741893.png)
+![image-20221205201741893](https://github.com/CALEB-jiale/Spring6Note/blob/main/spring6课件/spring6/image-20221205201741893.png?raw=true)
 
 
 
 点击“Create”
 
-![image-20221205202000198](images\spring6\image-20221205202000198.png)
+![image-20221205202000198](https://github.com/CALEB-jiale/Spring6Note/blob/main/spring6课件/spring6/image-20221205202000198.png?raw=true)
 
 删除src目录
 
 **（2）构建子模块spring6-first**
 
-![image-20221205202117383](images\spring6\image-20221205202117383.png)
+![image-20221205202117383](https://github.com/CALEB-jiale/Spring6Note/blob/main/spring6课件/spring6/image-20221205202117383.png?raw=true)
 
 点击 Create 完成
 
-![image-20221205202154225](images\spring6\image-20221205202154225.png)
+![image-20221205202154225](https://github.com/CALEB-jiale/Spring6Note/blob/main/spring6课件/spring6/image-20221205202154225.png?raw=true)
 
 
 
@@ -194,7 +194,7 @@ https://spring.io/projects/spring-framework#learn
 
 **查看依赖：**
 
-![image-20221201105416558](images\spring6\image-20221201105416558.png)
+![image-20221201105416558](https://github.com/CALEB-jiale/Spring6Note/blob/main/spring6课件/spring6/image-20221201105416558.png?raw=true)
 
 #### 2.3.2、创建java类
 
@@ -213,7 +213,7 @@ public class HelloWorld {
 
 在resources目录创建一个 Spring 配置文件 beans.xml（配置文件名称可随意命名，如：springs.xm）
 
-![img007](images/spring6/img007.png)
+![img007](https://github.com/CALEB-jiale/Spring6Note/blob/main/spring6课件/spring6/img007.png?raw=true)
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -255,7 +255,7 @@ public class HelloWorldTest {
 
 #### 2.3.5、运行测试程序
 
-![image-20221031172354535](images/spring6/image-20221031172354535.png)
+![image-20221031172354535](https://github.com/CALEB-jiale/Spring6Note/blob/main/spring6课件/spring6/image-20221031172354535.png?raw=true)
 
 
 
@@ -282,7 +282,7 @@ public class HelloWorld {
 
 执行结果：
 
-![image-20221031181430720](images/spring6/image-20221031181430720.png)
+![image-20221031181430720](https://github.com/CALEB-jiale/Spring6Note/blob/main/spring6课件/spring6/image-20221031181430720.png?raw=true)
 
 **测试得知：创建对象时确实调用了无参数构造方法。**
 
@@ -416,7 +416,7 @@ Map<String,BeanDefinition> , 其中 String是Key , 默认是类名首字母小�
 
 运行原测试程序
 
-![image-20221031214305224](images/spring6/image-20221031214305224.png)
+![image-20221031214305224](https://github.com/CALEB-jiale/Spring6Note/blob/main/spring6课件/spring6/image-20221031214305224.png?raw=true)
 
 运行原测试程序，多了spring打印日志
 
